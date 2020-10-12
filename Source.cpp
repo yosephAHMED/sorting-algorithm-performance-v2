@@ -7,7 +7,11 @@
 #include <ctime>
 #include <cstdlib>
 #include <math.h>
+
 using namespace std;
+
+// heapSort function declaration
+void heapSort(vector<int>& arr);
 
 // counter for number of steps per sorting algorithm of input size n
 long long int numSteps = 0;
@@ -198,6 +202,21 @@ void testSortingAlgorithms()
     cout << endl;
 
     mergeSort(testVecArr, 0, static_cast<int>(testVecArr.size() - 1));
+    cout << "input after: ";
+    printVector(testVecArr);
+    cout << endl << "---------------------------------------" << endl;
+
+    // clear the vector to remove all elements
+    testVecArr.clear();
+
+    testVecArr = { 14, 2, 1, 6, 21, 5 };
+
+    cout << endl << "------------ heap sort ---------------" << endl;
+    cout << "input before: ";
+    printVector(testVecArr);
+    cout << endl;
+
+    heapSort(testVecArr);
     cout << "input after: ";
     printVector(testVecArr);
     cout << endl << "---------------------------------------" << endl;
