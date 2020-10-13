@@ -434,6 +434,23 @@ int main()
         // reset numSteps counter to 0
         numSteps = 0;
 
+        // clear vector and initialize
+        vecArr.clear();
+        generateRandomPermutation(vecArr, inputArr[i]);
+
+        // run heap sort on vecArr and obtain running time
+        t1 = high_resolution_clock::now();
+        heapSort(vecArr);
+        t2 = high_resolution_clock::now();
+        runningTime = t2 - t1;
+
+        cApproximation = numSteps / (inputArr[i] * log(inputArr[i]));
+
+        outFile << setw(50) << left << "HeapSort for RandomPermutation:" << setw(18) << left << "Running Time(ms): " << setw(12) << runningTime.count() << setw(7) << left << "Steps: " << setw(32) << numSteps << setw(3) << left << "C= " << setw(32) << cApproximation << endl;
+
+        // reset numSteps counter to 0
+        numSteps = 0;
+
         // --------------------------------------
         // 50 instances of n random numbers generated in the range of [1..n]
         // take average over 50 runs
