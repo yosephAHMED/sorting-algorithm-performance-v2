@@ -460,8 +460,10 @@ int main()
 
         double tInsertionRT = 0;
         double tMergeRT = 0;
+        double tHeapRT = 0;
         long long int iNumSteps = 0;
         long long int mNumSteps = 0;
+        long long int hNumSteps = 0;
 
         for (int j = 0; j < 50; j++)
         {
@@ -495,13 +497,32 @@ int main()
 
             // reset numSteps counter to 0
             numSteps = 0;
+
+            // clear vector and initialize
+            vecArr.clear();
+            generateRandomInput(vecArr, inputArr[i]);
+
+            // run heap sort on vecArr and obtain running time
+            t1 = high_resolution_clock::now();
+            heapSort(vecArr);
+            t2 = high_resolution_clock::now();
+            runningTime = t2 - t1;
+            tHeapRT = tHeapRT + runningTime.count();
+
+            hNumSteps += numSteps;
+
+            // reset numSteps counter to 0
+            numSteps = 0;
         }
 
         cApproximation = (iNumSteps / 50) / pow(inputArr[i], 2);
         outFile << setw(50) << left << "InsertionSort for 50 instances of RandomInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << tInsertionRT / 50 << setw(7) << left << "Steps: " << setw(32) << iNumSteps / 50 << setw(3) << left << "C= " << setw(32) << cApproximation << endl;
 
         cApproximation = (mNumSteps / 50) / (inputArr[i] * log(inputArr[i]));
-        outFile << setw(50) << left << "MergeSort for 50 instances of RandomInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << tMergeRT / 50 << setw(7) << left << "Steps: " << setw(32) << mNumSteps / 50 << setw(3) << left << "C= " << setw(32) << cApproximation << endl << endl;
+        outFile << setw(50) << left << "MergeSort for 50 instances of RandomInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << tMergeRT / 50 << setw(7) << left << "Steps: " << setw(32) << mNumSteps / 50 << setw(3) << left << "C= " << setw(32) << cApproximation << endl;
+
+        cApproximation = (hNumSteps / 50) / (inputArr[i] * log(inputArr[i]));
+        outFile << setw(50) << left << "HeapSort for 50 instances of RandomInput:" << setw(18) << left << "Running Time(ms): " << setw(12) << tHeapRT / 50 << setw(7) << left << "Steps: " << setw(32) << hNumSteps / 50 << setw(3) << left << "C= " << setw(32) << cApproximation << endl << endl;
 
         vecArr.clear();
     }
