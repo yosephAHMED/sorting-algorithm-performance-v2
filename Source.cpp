@@ -10,7 +10,7 @@
 
 using namespace std;
 
-// heapSort function declaration
+// heapSort function prototype
 void heapSort(vector<int>& arr);
 
 // counter for number of steps per sorting algorithm of input size n
@@ -211,7 +211,7 @@ void testSortingAlgorithms()
 
     testVecArr = { 14, 2, 1, 6, 21, 5 };
 
-    cout << endl << "------------ heap sort ---------------" << endl;
+    cout << "------------ heap sort ---------------" << endl;
     cout << "input before: ";
     printVector(testVecArr);
     cout << endl;
