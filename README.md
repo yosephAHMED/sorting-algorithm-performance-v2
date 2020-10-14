@@ -62,6 +62,22 @@ What to turn in:
   <img src="https://gist.githubusercontent.com/yosephAHMED/a027ccf406a2a72c2e07672fb7a28a75/raw/d8df8aeb8229a9fd98df50d0348b74fcfb2162a2/Merge_Sort_Performance.svg">
 </a>
 
+### Heap Sort Runtime Performance (ms)
+| Input Size | Reversely Sorted | Sorted | Random Permutation | 50 Instances of Random Input |
+| --- | --- | --- | --- | --- |
+| `100` | 0.0899  | 0.1101 | 0.1001 | 0.102672 |
+| `200` | 0.2106 | 0.2527 | 0.2326 | 0.239404 |
+| `300` | 0.347 | 0.4063 | 0.3825 | 0.389242 |
+| `400` | 0.4945 | 0.5694 | 0.829 | 0.56078 |
+| `500` | 0.6411 | 0.921 | 0.7032 | 0.72142 |
+| `1000` | 1.4486 | 1.6447 | 1.5759 | 1.5719 |
+| `4000` | 7.2739 | 7.9386 | 7.6866 | 7.6876 |
+| `10000` | 20.2221 | 24.0676 | 21.4381 | 21.7895 |
+
+<a href="https://gist.githubusercontent.com/yosephAHMED/a027ccf406a2a72c2e07672fb7a28a75/raw/d8df8aeb8229a9fd98df50d0348b74fcfb2162a2/Merge_Sort_Performance.svg">
+  <img src="https://gist.githubusercontent.com/yosephAHMED/a027ccf406a2a72c2e07672fb7a28a75/raw/d8df8aeb8229a9fd98df50d0348b74fcfb2162a2/Merge_Sort_Performance.svg">
+</a>
+
 ### Average C approximations for Insertion Sort
 | Input Size | Reversely Sorted | Sorted | Random Permutation | 50 Instances of Random Input |
 | --- | --- | --- | --- | --- |
