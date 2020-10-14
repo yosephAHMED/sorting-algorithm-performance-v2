@@ -136,5 +136,4 @@ What to turn in:
 </a>
 
 ## Conclusion:
-For sorted inputs, it appears that insertion sort is faster than merge sort across all input size (n). Furthermore, for smaller input size (n), it appears that i# sorting-algorithm-performance
-## Programming Assignment: You need to implement insertion sort and merge sort (increasing or decreasing order) algorithms and measure the performance of these two algorithms in terms of number of steps and CPU running time.
+For sorted inputs, it appears that insertion sort is faster than merge sort across all input size (n). Contrary to expecected findings, the results for running performance of Heap Sort is somehow much better than Insertion and Merge sort algorithms. Furthermore, it is found that for Heap Sort, the approximation of C is much larger than that of Insertion and Merge Sort.
