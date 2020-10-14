@@ -114,6 +114,24 @@ What to turn in:
   <img src="https://gist.githubusercontent.com/yosephAHMED/4241617bb803a9d3d39a6260b95b8558/raw/21a6b219a1b2ed4cca90af7816bb6cf3d3be6a6a/Merge_Sort_C_Approximation.svg">
 </a>
 
+### Average C approximations for Heap Sort
+| Input Size | Reversely Sorted | Sorted | Random Permutation | 50 Instances of Random Input |
+| --- | --- | --- | --- | --- |
+| `100` | 16.5314 | 13.5695 | 15.0982 | 15.1308 |
+| `200` | 16.5062 | 13.5788 | 15.0529 | 15.1709 |
+| `300` | 16.4704 | 13.7961 | 15.2104 | 15.1572 |
+| `400` | 16.4046 | 13.8802 | 15.2984 | 15.225 |
+| `500` | 16.3058 | 13.9056 | 15.2296 | 15.1714 |
+| `1000` | 16.2587 | 14.042 | 15.2141 | 15.2601 |
+| `4000` | 16.2944 | 14.4025 | 15.3421 | 15.3528 |
+| `10000` | 16.357 | 14.5345 | 15.4357 | 15.4304 |
+| --- | --- | --- | --- | --- |
+| **Average** | 16.3910625 | 13.96365 | 15.235175 | 15.237325 |
+
+<a href="https://gist.githubusercontent.com/yosephAHMED/6b05590c50ed31791b14145f5ec28747/raw/a8996622ef16fddac9e75724b06c6b7e449df031/HeapSortCApprox.svg">
+  <img src="https://gist.githubusercontent.com/yosephAHMED/6b05590c50ed31791b14145f5ec28747/raw/a8996622ef16fddac9e75724b06c6b7e449df031/HeapSortCApprox.svg">
+</a>
+
 ## Conclusion:
 For sorted inputs, it appears that insertion sort is faster than merge sort across all input size (n). Furthermore, for smaller input size (n), it appears that i# sorting-algorithm-performance
 ## Programming Assignment: You need to implement insertion sort and merge sort (increasing or decreasing order) algorithms and measure the performance of these two algorithms in terms of number of steps and CPU running time.
