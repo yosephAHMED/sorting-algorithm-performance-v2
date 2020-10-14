@@ -91,6 +91,7 @@ What to turn in:
 | `10000` | 3.49995 | 0.00029998 | 1.74479 | 1.7511 |
 | --- | --- | --- | --- | --- |
 | **Average** | 3.50598875 | 0.009031891875 | 1.6982575 | 1.75001125 |
+| **Average of averages** | 1.7408223479687 |
 
 <a href="https://gist.githubusercontent.com/yosephAHMED/57e21327b739594cc26b36dc77a39d89/raw/3853f43d1d0763bb953ee860c7ac1af750771015/Insertion_Sort_C_Approximation.svg">
   <img src="https://gist.githubusercontent.com/yosephAHMED/57e21327b739594cc26b36dc77a39d89/raw/3853f43d1d0763bb953ee860c7ac1af750771015/Insertion_Sort_C_Approximation.svg">
@@ -109,6 +110,7 @@ What to turn in:
 | `10000` | 7.44433 | 7.44433 | 10.5372 | 10.5352 |
 | --- | --- | --- | --- | --- |
 | **Average** | 8.261185 | 8.261185 | 11.05925 | 11.066475 |
+| **Average of averages** | 9.66202375 |
 
 <a href="https://gist.githubusercontent.com/yosephAHMED/4241617bb803a9d3d39a6260b95b8558/raw/21a6b219a1b2ed4cca90af7816bb6cf3d3be6a6a/Merge_Sort_C_Approximation.svg">
   <img src="https://gist.githubusercontent.com/yosephAHMED/4241617bb803a9d3d39a6260b95b8558/raw/21a6b219a1b2ed4cca90af7816bb6cf3d3be6a6a/Merge_Sort_C_Approximation.svg">
@@ -127,6 +129,7 @@ What to turn in:
 | `10000` | 16.357 | 14.5345 | 15.4357 | 15.4304 |
 | --- | --- | --- | --- | --- |
 | **Average** | 16.3910625 | 13.96365 | 15.235175 | 15.237325 |
+| **Average of averages** |15.206803125 |
 
 <a href="https://gist.githubusercontent.com/yosephAHMED/6b05590c50ed31791b14145f5ec28747/raw/a8996622ef16fddac9e75724b06c6b7e449df031/HeapSortCApprox.svg">
   <img src="https://gist.githubusercontent.com/yosephAHMED/6b05590c50ed31791b14145f5ec28747/raw/a8996622ef16fddac9e75724b06c6b7e449df031/HeapSortCApprox.svg">
