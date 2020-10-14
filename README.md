@@ -74,8 +74,8 @@ What to turn in:
 | `4000` | 7.2739 | 7.9386 | 7.6866 | 7.6876 |
 | `10000` | 20.2221 | 24.0676 | 21.4381 | 21.7895 |
 
-<a href="https://gist.githubusercontent.com/yosephAHMED/379cbe430e79bece6c5c74ec32437d9a/raw/76e2b5317522fe36620109279e23aadc99f7b0e2/chart%2520(5).svg">
-  <img src="https://gist.githubusercontent.com/yosephAHMED/379cbe430e79bece6c5c74ec32437d9a/raw/76e2b5317522fe36620109279e23aadc99f7b0e2/chart%2520(5).svg">
+<a href="https://gist.githubusercontent.com/yosephAHMED/519c2aefda863e67ba4f5cd2defbdb3e/raw/0aa554bc97d25f66d56a9fc5bf004e7c59d8b009/HeapSort.svg">
+  <img src="https://gist.githubusercontent.com/yosephAHMED/519c2aefda863e67ba4f5cd2defbdb3e/raw/0aa554bc97d25f66d56a9fc5bf004e7c59d8b009/HeapSort.svg">
 </a>
 
 ### Average C approximations for Insertion Sort
